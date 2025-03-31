@@ -11,6 +11,9 @@
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write ."
   },
+    "engines": {
+    "node": "22.x"
+  },
   "devDependencies": {
     "@iconify/json": "^2.2.208",
     "@sveltejs/adapter-auto": "^3.0.0",
